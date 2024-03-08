@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Data Lovers</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet"/>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+			  <img src="Assets/pokemon go.png">
+			</div>
+			 
+			
+			<form class="form" id="formulario">
+				<input type="text" class="barra-busqueda" id="busqueda" placeholder="search by name">
+			</form>
+
+
+			 
+			 <div class="dropdown"id="filter">
+				<button class="btn"  onClick="location.reload();" id="all">Show All</button>
+				<button class="btn" id="aparicion">order of appearance</button>
+				<button class="btn" id="poder">Power</button>
+			   <select class="btn" id="tipo">
+			<option selected="true">Type </option>
+            <option value="bug" > bug </option>
+            <option value="dark"> dark </option>
+            <option value="dragon"> dragon </option>
+			<option value="electric"> electric </option>
+			<option value="fairy"> fairy </option>
+            <option value="fighting"> fighting </option>
+            <option value="fire"> fire </option>
+			<option value="flying"> flying</option>
+			<option value="ghost"> ghost </option>
+            <option value="grass"> grass </option>
+            <option value="ground"> ground</option>
+			<option value="ice"> ice </option>
+			<option value="normal"> normal </option>
+			<option value="poison"> poison</option>
+			<option value="rock"> rock </option>
+			<option value="steel"> steel</option>
+			<option value="water"> water </option>
+			   </select>
+			 </div>
+	  </header>
+
+	
+	
+	  <div id="tarjetas" class="grid-container">
+
+</div>
+
+	<script src="main.js" type="module"></script>
+
+
+  </body>
+</html>
